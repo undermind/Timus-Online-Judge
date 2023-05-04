@@ -9,11 +9,8 @@ word=tokens[1]
 inv={}
 for i in range(len(word)):
     inv[i]=word[i]
-print(inv)
 inv = sorted(inv.items(), key=lambda x:x[1])
-print(inv)
 for i in range(len(word)):
     n=inv[n][0]
     print(word[n],end='')
-print()
 
