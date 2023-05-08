@@ -1,0 +1,12 @@
+import sys
+tokens = sys.stdin.read().split()
+cnt=int(tokens[0])
+if cnt<5:print("few")
+elif cnt<10:print("several")
+elif cnt<20:print("pack")
+elif cnt<50:print("lots")
+elif cnt<100:print("horde")
+elif cnt<250:print("throng")
+elif cnt<500:print("swarm")
+elif cnt<1000:print("zounds")
+else: print("legion")
