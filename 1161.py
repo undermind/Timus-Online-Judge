@@ -1,7 +1,7 @@
 #1161
 import sys,math
-#tokens = sys.stdin.read().split()
-tokens = [3,72,30,50]
+tokens = sys.stdin.read().split()
+#tokens = [3,72,30,50]
 n=int(tokens[0])
 w=[]
 for i in range(n):
