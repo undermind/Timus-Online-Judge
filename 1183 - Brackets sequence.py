@@ -1,6 +1,6 @@
 import sys
-#s = sys.stdin.read()
-theS=""
+s = sys.stdin.read()
+#theS=""
 #for c in s:if c in ['(',')','[',']']:theS+=c 
 #theS= "([(]"
 theS="([][]())"
